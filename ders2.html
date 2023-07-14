@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Bir bilgisayar programı bilgisayar tarafından işlenmek üzere yazılmış talimatlardır.
+
+Talimatları yazarken her programlama dili için farklı yazım kuralı vardır.
+
+Yazım kurallarına söz dizimi (syntax) denir.
+
+JavaScript komutları içerisinde belirli bir işlemi yapan en küçük kod parçasına kod denir.
+
+JavaScript kodları noktalı virgülle sonlanır.
+<script>
+    var a, b, c;
+    a = 5;
+    b = 6;
+    c = a + b;
+
+</script>
+<br>
+<p>JavaScript kodları değişkenler, operatörler, deyimler, anahtar kelimeler ve yorumlardan oluşur.
+
+    JavaScript sabit değerler ve değişken değerler olmak üzere iki farklı değer türü yazılabilir.
+
+    Sabit değerler
+    Sabit değerler herhangi bir değişkende saklanmadan yazılan değerlerdir.
+
+    Sabit değerli rakamlar herhangi bir tırnak işareti eklenmeden yazılır.</p>
+
+
+14.53
+1453
+<script>
+    alert(14.53);
+</script>
+Sabit değerli metinler tek veya çift tırnak arasında yazılır.
+
+"Merhaba JavaScript"
+'Merhaba JavaScript'
+<script>
+    alert("Merhaba JavaScript");
+</script>
+
+<br>
+
+Değişken değerler
+Programlama dillerinde değişkenler veri depolamak için kullanılır.
+
+JavaScript değişken tanımlamak için var anahtar kelimesi kullanılır.
+
+Tanımlanan değişkene değer atamak için eşit işareti kullanılır.
+
+Örnekte x değişken olarak tanımlanmış ve daha sonra x değişkenine 1453 değeri atanmıştır.
+<script>
+
+    var x;
+    x = 1453;
+
+</script>
+Operatörler
+JavaScript ile hesaplama işlemleri için aritmetik operatörler kullanılır.
+
+<script>
+    var x;
+    x = (5 + 1) * 10; //60
+    alert(x);
+</script>
+<br>
+
+Deyimler
+JavaScript deyimleri değerler, değişkenler ve operatörlerle yeni bir değer üretilmesidir.
+
+Örneğin iki değerin çarpımı ile yeni bir değer elde edilmiştir.
+
+<script>
+    alert(5 * 10);  // 50
+</script>
+Deyimler değişken değer alabilir.
+
+<script>
+    var x;
+    x = 5;
+    alert(x * 10); // 50
+</script>
+Deyimler metin türünde değer alabilir.
+
+<script>
+    alert("Merhaba" + " " + "Dünya");  // merhaba dünya   birleştirme olarak + kullanıyoruz sayısal değerler tırnaksız yazılır 5 + "Dünya"  5Dünya çıktısını verir
+</script>
+<br>
+
+Anahtar kelimeler
+JavaScript anahtar kelimeler talimat vermek için kullanılır.
+
+JavaScript var anahtar kelimesi tarayıcıya yeni değişken oluşturma talimatı verir.
+
+<script>
+    var a, b, c;
+    a = 5;
+    b = 6;
+    c = a + b;
+    alert(c);  // 11
+</script>
+<br>
+
+Yorumlar
+Tüm JavaScript kodları tarayıcı tarafından işlenmez.
+
+Çift eğik çizgi // sonrası, /* arası */ tarayıcı tarafından yorum kodu olarak ele alınır.
+
+<script>
+    var x;
+    x = 5;
+    // alert(x * 10);
+</script>
+Yorumlar tarayıcı tarafından işlenmezler.
+
+Tanımlayıcılar
+JavaScript değişkenler, fonksiyonlar ve etiketlerin isimlendirilmesine tanımlayıcı denir.
+
+Tanımlayıcı kuralları çoğu programlama diliyle aynıdır.
+
+JavaScript tanımlayıcının ilk karakteri harf, alt çizgi (_) veya dolar işareti ($) olabilir.
+
+Sonraki karakterler karakter, sayı, altçizgi veya dolar işareti olabilir.
+<br>
+
+
+JavaScript kodları noktalı virgülle ayrıldığında tek satırda yazılabilir.
+
+<script>
+    var a, b, c; a = 5; b = 6; c = a + b;
+</script>
+
+Boşluk bırakmak
+JavaScript ile kod yazarken kodlar arasındaki boşluklar yok sayılır.
+
+Kodları daha okunabilir olması için her kod arasına boşluk bırakabilirsiniz.
+
+
+<script>
+    ismim = "Emre YAMAN";
+    ismim="Emre YAMAN";
+</script>
+<br>
+
+
+Kod uzunluğu
+Uzun JavaScript kodları okunurluğu azaltır.
+
+Uzun JavaScript kodlarını birden fazla satıra bölmek okunabilirliği arttıracaktır.
+
+<script>
+document.getElementById("eleman").innerHTML =
+"Merhaba JavaScript";
+</script>
+<br>
+
+Kod blokları
+JavaScript kodları süslü parantez { . . . } kullanılarak kod blokları arasında gruplanabilir.
+<script>
+function ismiYazdir() {
+var ismim = "Emre Yaman NAGA"
+alert(ismim);
+}
+</script>
+
+JavaScript dilinde değişkenler veri depolamak için kullanılır.
+
+Örnekte a, b ve c değişkenleri tanımlanmış ve değer atanmıştır.
+
+var a = 5;
+var b = 6;
+var c = a + b;
+Tanımlanan değişkenlerde
+
+a değişkenin değeri 5
+b değişkenin değeri 6
+c değişkeninin değeri 11 olur.
+Değişken tanımlama
+Tüm JavaScript değişken isimleri benzersiz olmalıdır.
+
+JavaScript değişken isimleri tanımlayıcı olarak adlandırılır.
+
+Tanımlayıcılar a ve b gibi kısa veya daha açıklayıcı merhabaDunya, dogumTarihi, xSayisi gibi olabilir.
+
+JavaScript değişken tanımlama kuralları
+
+Değişken isimlerinde harf, rakam, alt çizgi ve dolar işareti olabilir.
+Değişken isimleri harf, alt çizgi veya dolar işareti ile başlayabilir.
+Değişken isimleri BÜYÜK küçük harf duyarlıdır. (a ve A farklı değişkenlerdir)
+Değişken isimleri arasında boşluk bırakılmaz.
+JavaScript anahtar kelimeleri değişken adı olarak kullanılamaz. (var, debugger, if, while…vb)
+Değişken isimlerinde Türkçe karakter kullanılabilir. Ancak kullanılması tavsiye edilmez.
+Değer atama
+JavaScript ile tanımlanan değişkene değer atamak için eşit (=) operatörü kullanılır.
+
+var a = 5;
+Değişken türleri
+JavaScript değişkenleri 100 gibi sayısal değer alabileceği gibi Emre YAMAN gibi metinsel değer alabilir.
+
+Metinsel değerler tek tırnak veya çift tırnak arasında yazılırken sayısal değerler tırnak işareti olmadan yazılır.
+
+Sayısal değerler tırnak içerisine alınırsa JavaScript değişkeni metinsel ifade olarak tanımlayacaktır.
+
+var pi = 3.14;
+var ismim = "Emre YAMAN";
+var merhaba = 'Merhaba JavaScript';
+Değişken oluşturmak
+JavaScript değişken oluşturma değişken tanımlama olarak adlandırılır.
+
+JavaScript ile değişken oluşturmak için var anahtar kelimesi kullanılır.
+
+var ismim;
+Değişken oluşturduktan sonra değişkenin herhangi bir değeri yoktur. (Değişken değeri undefined tanımlanmıştır.)
+
+Değişkene değer atamak için eşit (=) operatörü kullanılır.
+
+ismim = "Emre YAMAN";
+Değişkene değer atama işlemini değişken oluştururken de yapabiliriz.
+
+var ismim = "Emre YAMAN";
+Örnekte ismim değişkeni oluşturulmuş Emre YAMAN değeri atanmış ve ekrana uyarı mesajı olarak yazılmıştır.
+
+<script>
+    var ismim = "Emre YAMAN";
+    alert(ismim);
+</script>
+Değişkenleri JavaScript komutlarının başında oluşturulması önerilir.
+
+Birden fazla değişken tanımlama
+Birden fazla değişken tanımlamak için değişken ismi sonrasına virgül eklememiz yeterli olacaktır.
+
+<script>
+    var ismim = "Emre YAMAN", merhaba = "Merhaba JavaScript", xSayisi = 1453;
+    alert(ismim);
+</script>
+Birden fazla değişken tanımlamayı daha okunaklı olması için birden fazla satıra bölebiliriz.
+
+<script>
+    var ismim = "Emre YAMAN",
+        merhaba = "Merhaba JavaScript",
+        xSayisi = 1453;
+    alert(ismim);
+</script>
+Tanımsız değişkenler
+Değişken değeri hesaplama sonucu veya kullanıcı veri girişinden sonra değer alabileceğinden genellikle değişkenlere değer atanmadan oluşturulur.
+
+Değişkenlere değer verilmeden oluşturulursa tanımsız (undefined) değerini alır.
+
+Örnekte ismim adında bir değişken oluşturulmuş ancak değer atanmadığından undefined değerini almıştır.
+
+<script>
+    var ismim;
+    alert(ismim);
+</script>
+Değişkenleri tekrar oluşturmak
+JavaScript tanımlanmış değişkeni tekrar oluşturulursa değerini korur.
+
+<script>
+    var ismim = "Emre YAMAN";
+    var ismim;
+    alert(ismim);
+</script>
+NOT: Tekrar oluşturulan değişkene değer atanırsa yeni atanan değeri alır.
+
+Değişken aritmetiği
+JavaScript değişkenlerde aritmetik operatörlerini kullanabiliriz.
+
+<script>
+    var xSayisi = 5 + 2 + 3;
+    alert(xSayisi);
+</script>
+Aritmetik operatörleri metinsel değerlerde kullandığımızda birleştirme operatörü olarak işlem yapacaktır.
+
+<script>
+    var ismim = "Emre" + "YAMAN";
+    alert(ismim);
+</script>
+Sayılar tırnak içerisinde yazıldığında JavaSsript metinsel birleştirme operatörü işlemi yapacaktır.
+
+<script>
+    var xSayisi = "5" + 2 + 3;
+    alert(xSayisi);
+</script>
+Aşağıdaki örnekte ilk olarak 5 ve 2 toplanacak sonra değer metinsel olarak yazıldığından değişken birleştirme operatörü olarak işlem yapacaktır.
+
+<script>
+    var xSayisi = 5 + 2 + "3";
+    alert(xSayisi);
+</script>
+
+
+
+</body>
+</html>

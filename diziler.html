@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    //
+    var ogrenci1 = "Emre";
+    var ogrenci2 = "YAMAN";
+    var sayilar = [1, 3, 8, 9, 7];
+    //sayilar[1] dediğimizde 3 numaralı sayıyı vericek
+    var sehirler = ["Edirne", "istanbul", "ankara"];
+    // sehirler[1] dediğmizde istanbulu verick
+    // elemanların yerine function verebilriz
+
+
+    // dizilerle alakalı hazır yararlı functionlar
+    //pop  bana dizinin son elamanını ver demektir
+    // shift  diziyi sola kaydırır en baştaki diziyi yok eder
+    //push bursayı sona ekler
+    // concat  elimdeki dizi ile bu verileri birleştir  bana öyle ver der ama dizi içinde kayıtlı olarak ekleme yapmaz
+    //sort  dizileri yazdırmaya yarar
+    // length sehirlerin eleman sayısını gösterir dizileride gösterir
+
+    var sehirler = ["Edirne", "istanbul", "ankara", "bursa"];
+
+    sehirler.pop();
+    // pop yazdıktan sonra bursayı diziler içinden çıkartır  şehirleri yazdırmak istediğimiz zamanda pop yaptığımız için bursayı vermeden diğerlerini verir
+
+    sehirler.shift();
+    // yazdırdığımızda edirneyi yok eder ilk sıraya istanbulu koyar
+
+    sehirler.push("bursa");
+    // yazdırdığım zamanda bursayı ekedir
+
+    sehirler.concat("van","mus");
+    // 2 dizi daha ekledi  ama bu geçici ekleme
+
+    sehirler.sort();
+    // sehirleri yazdırdı
+
+    sehirler.length;
+    // kaç dizi varsa o sayıyı verir
+
+
+
+
+</script>
+
+</body>
+</html>
